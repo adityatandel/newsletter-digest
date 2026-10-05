@@ -1,0 +1,22 @@
+# Secrets - NEVER commit these
+.env
+
+# Local run state and logs
+last_run.json
+digest.log
+cron.log
+
+# The isolated Python environment the wizard builds
+venv/
+
+# Windows launcher the wizard generates
+run_digest.bat
+
+# Backups you might make
+*_backup*.py
+digest_old*.py
+
+# Python cruft
+__pycache__/
+*.pyc
+.DS_Store
